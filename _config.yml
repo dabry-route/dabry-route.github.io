@@ -18,6 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+lsi: false
+safe: true
+source: .
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+
 title: Bastien Schnitzler
 email: surname dot name at live dot fr
 description: >- # this means to ignore newlines until "baseurl:"
