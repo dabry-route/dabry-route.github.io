@@ -18,31 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-lsi: false
-safe: true
-source: .
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
-
-
-title: Bastien Schnitzler
-email: surname dot name at live dot fr
+title: Your awesome title
+email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  bschnitzler
-linkedin_username: bastien-schnitzler-4054a51b6
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
-theme: bay_jekyll_theme
+theme: minima
 plugins:
   - jekyll-feed
 
@@ -65,24 +53,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-header:
-  pages:
-    - name: Home
-      slug: /
-    - name: Work
-    - name: Experiments
-
-footer:
-  show_powered_by: false
-  contact:
-    - name: Email
-      value: surname dot name at live dot fr
-  follow:
-    - name: GitHub
-      link: https://github.com/bschnitzler
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/bastien-schnitzler
-
-#plugins:
-#  - jekyll-leaflet
