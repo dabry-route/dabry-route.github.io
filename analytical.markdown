@@ -3,77 +3,141 @@ layout: page
 title: Analytical
 permalink: /analytical/
 ---
-1) [1obs](#1obs)
 
-2) [3obs](#3obs)
+To run examples, follow installation instructions for the `dabry` module.
+In particular, set up the Python environment using the `activate` script from the `dabry` installation directory:
+```sh
+source ./activate
+```
 
-3) [3vor](#3vor)
+Then you are ready to execute `dabry` as a Python module using
 
-4) [4vor](#4vor)
+```
+python3 -m dabry case [problem_name]
+```
 
-5) [band](#band)
+# Available problems
 
-6) [big_rankine](#big_rankine)
+1) [3vor](#3vor)
 
-7) [chertovskih2020](#chertovskih2020)
+2) [4vor](#4vor)
 
-8) [double-gyre-scaled](#double-gyre-scaled)
+3) [band](#band)
 
-9) [gyre-rhoads2010](#gyre-rhoads2010)
+4) [big_rankine](#big_rankine)
 
-10) [linear](#linear)
+5) [chertovskih2020](#chertovskih2020)
 
-11) [lva](#lva)
+6) [double-gyre-scaled](#double-gyre-scaled)
 
-12) [movor](#movor)
+7) [gyre-rhoads2010](#gyre-rhoads2010)
 
-13) [movors](#movors)
+8) [linear](#linear)
 
-14) [natal-dakar-constr](#natal-dakar-constr)
+9) [lva](#lva)
 
-15) [pointsym-techy2011](#pointsym-techy2011)
+10) [movor](#movor)
 
-16) [sanjuan-dublin-ortho-tv](#sanjuan-dublin-ortho-tv)
+11) [movors](#movors)
 
-17) [trap](#trap)
+12) [natal-dakar-constr](#natal-dakar-constr)
 
-18) [tvlinear](#tvlinear)
+13) [pointsym-techy2011](#pointsym-techy2011)
+
+14) [sanjuan-dublin-ortho-tv](#sanjuan-dublin-ortho-tv)
+
+15) [trap](#trap)
+
+16) [tvlinear](#tvlinear)
+
+17) [3obs](#3obs)
+
 
 # Experiments
 
-## 1obs
-![1obs](assets/gifs/1obs.gif)
-## 3obs
-![3obs](assets/gifs/3obs.gif)
+
 ## 3vor
+```
+python3 -m dabry case 3vor
+```
 ![3vor](assets/gifs/3vor.gif)
 ## 4vor
+```
+python3 -m dabry case 4vor
+```
 ![4vor](assets/gifs/4vor.gif)
 ## band
+```
+python3 -m dabry case band
+```
 ![band](assets/gifs/band.gif)
 ## big_rankine
+```
+python3 -m dabry case big_rankine
+```
 ![big_rankine](assets/gifs/big_rankine.gif)
 ## chertovskih2020
+```
+python3 -m dabry case chertovskih2020
+```
 ![chertovskih2020](assets/gifs/chertovskih2020.gif)
 ## double-gyre-scaled
+```
+python3 -m dabry case double-gyre-scaled
+```
 ![double-gyre-scaled](assets/gifs/double-gyre-scaled.gif)
 ## gyre-rhoads2010
+```
+python3 -m dabry case gyre-rhoads2010
+```
 ![gyre-rhoads2010](assets/gifs/gyre-rhoads2010.gif)
 ## linear
+```
+python3 -m dabry case linear
+```
 ![linear](assets/gifs/linear.gif)
 ## lva
+```
+python3 -m dabry case lva
+```
 ![lva](assets/gifs/lva.gif)
 ## movor
+```
+python3 -m dabry case movor
+```
 ![movor](assets/gifs/movor.gif)
 ## movors
+```
+python3 -m dabry case movors
+```
 ![movors](assets/gifs/movors.gif)
 ## natal-dakar-constr
+```
+python3 -m dabry case natal-dakar-constr
+```
 ![natal-dakar-constr](assets/gifs/natal-dakar-constr.gif)
 ## pointsym-techy2011
+```
+python3 -m dabry case pointsym-techy2011
+```
 ![pointsym-techy2011](assets/gifs/pointsym-techy2011.gif)
 ## sanjuan-dublin-ortho-tv
+```
+python3 -m dabry case sanjuan-dublin-ortho-tv
+```
 ![sanjuan-dublin-ortho-tv](assets/gifs/sanjuan-dublin-ortho-tv.gif)
 ## trap
+```
+python3 -m dabry case trap
+```
 ![trap](assets/gifs/trap.gif)
 ## tvlinear
+```
+python3 -m dabry case tvlinear
+```
 ![tvlinear](assets/gifs/tvlinear.gif)
+## 3obs
+```
+python3 -m dabry case 3obs
+```
+![3obs](assets/gifs/3obs.gif)

@@ -8,7 +8,6 @@ layout: page
 [Dabry](https://github.com/bschnitzler/dabry) is a Python-based module to solve optimal trajectory planning problems
 for vehicles in unsteady flows.
 
-
 [<img src="assets/gifs/cropped/3vor.gif" style="width: 32%;">](analytical#3vor)
 [<img src="assets/gifs/cropped/linear.gif" style="width: 32%;">](analytical#linear)
 [<img src="assets/gifs/cropped/4vor.gif" style="width: 32%;">](analytical#4vor)
