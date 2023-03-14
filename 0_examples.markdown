@@ -1,17 +1,13 @@
 ---
 layout: page    
-title: Analytical
-permalink: /analytical/
+title: Examples
+permalink: /examples/
 ---
 
-To run examples, follow installation instructions for the `dabry` module.
-In particular, set up the Python environment using the `activate` script from the `dabry` installation directory:
-```sh
-source ./activate
-```
+To run examples, follow installation instructions for the [Dabry module](https://github.com/dabry-route/dabry).
+Make sure `DABRYPATH` variable is appropriately set.
 
-Then you are ready to execute `dabry` as a Python module using
-
+You may run any example from the `dabry` module using
 ```
 python3 -m dabry case [problem_name]
 ```

@@ -4,12 +4,6 @@ title: Real data
 permalink: /real_data/
 ---
 
-Before starting, make sure `dabry` is activated by running the following command in the `dabry` root installation 
-directory
-```sh
-source ./activate
-```
-
 Click on map to select start point (green) and target point (red)
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
