@@ -2,6 +2,7 @@
 layout: page    
 title: Examples
 permalink: /examples/
+usemathjax: false
 ---
 
 To run examples, follow installation instructions for the [Dabry module](https://github.com/dabry-route/dabry).
